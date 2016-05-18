@@ -89,7 +89,7 @@ namespace FileSystemJsonActivitySaver
         }
         private void WriteActivities()
         {
-            using (var stream = new FileStream(_outputFilePath, FileMode.OpenOrCreate, FileAccess.Write))
+            using (var stream = new FileStream(_outputFilePath, FileMode.Create, FileAccess.Write))
             {
                 using (var reader = new StreamWriter(stream, _fileEncoding))
                 {
