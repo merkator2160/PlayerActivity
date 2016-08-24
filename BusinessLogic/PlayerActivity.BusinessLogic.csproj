@@ -7,8 +7,8 @@
     <ProjectGuid>{7ADFD6E1-E309-4E62-8A74-E8F764F27118}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BusinessLogic</RootNamespace>
-    <AssemblyName>BusinessLogic</AssemblyName>
+    <RootNamespace>PlayerActivity.BusinessLogic</RootNamespace>
+    <AssemblyName>PlayerActivity.BusinessLogic</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -60,7 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums.cs" />
+    <Compile Include="Enums\ActivityType.cs" />
     <Compile Include="Infrastructure\ServiceLocator.cs" />
     <Compile Include="Services\ActivityService.cs" />
     <Compile Include="Infrastructure\AutoMapperConfig.cs" />
@@ -74,13 +74,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Contracts\Contracts.csproj">
+    <ProjectReference Include="..\Contracts\PlayerActivity.Contracts.csproj">
       <Project>{3582c680-8bdf-4591-ae21-17e61e78e405}</Project>
-      <Name>Contracts</Name>
+      <Name>PlayerActivity.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FileSystemJsonActivitySaver\FileSystemJsonActivitySaver.csproj">
+    <ProjectReference Include="..\FileSystemJsonActivitySaver\PlayerActivity.FileSystemJsonActivitySaver.csproj">
       <Project>{b9de2043-15d7-4523-882c-71adee3c24c9}</Project>
-      <Name>FileSystemJsonActivitySaver</Name>
+      <Name>PlayerActivity.FileSystemJsonActivitySaver</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

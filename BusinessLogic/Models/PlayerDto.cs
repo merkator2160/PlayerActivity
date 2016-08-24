@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BusinessLogic.Models
+namespace PlayerActivity.BusinessLogic.Models
 {
     public class PlayerDto
     {

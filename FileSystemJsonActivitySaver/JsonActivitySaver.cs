@@ -1,13 +1,13 @@
-﻿using Contracts.Interfaces;
-using Contracts.Models;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using PlayerActivity.Contracts.Interfaces;
+using PlayerActivity.Contracts.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace FileSystemJsonActivitySaver
+namespace PlayerActivity.FileSystemJsonActivitySaver
 {
     public class JsonActivitySaver : IActivityRepository, IDisposable
     {

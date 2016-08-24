@@ -1,7 +1,7 @@
-﻿using Contracts;
+﻿using PlayerActivity.BusinessLogic.Enums;
 using System;
 
-namespace BusinessLogic.Models
+namespace PlayerActivity.BusinessLogic.Models
 {
     public class ActivityDto
     {

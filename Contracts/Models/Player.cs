@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Contracts.Models
+namespace PlayerActivity.Contracts.Models
 {
     public class Player
     {

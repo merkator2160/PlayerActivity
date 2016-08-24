@@ -1,4 +1,4 @@
-﻿namespace BusinessLogic
+﻿namespace PlayerActivity.BusinessLogic.Enums
 {
     public enum ActivityType
     {

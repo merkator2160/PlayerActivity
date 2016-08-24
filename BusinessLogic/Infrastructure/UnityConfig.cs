@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using BusinessLogic.Interfaces;
-using BusinessLogic.Services;
-using Contracts.Interfaces;
-using FileSystemJsonActivitySaver;
 using Microsoft.Practices.Unity;
+using PlayerActivity.BusinessLogic.Interfaces;
+using PlayerActivity.BusinessLogic.Services;
+using PlayerActivity.Contracts.Interfaces;
+using PlayerActivity.FileSystemJsonActivitySaver;
 using System;
 using System.Text;
 
-namespace BusinessLogic.Infrastructure
+namespace PlayerActivity.BusinessLogic.Infrastructure
 {
     internal static class UnityConfig
     {

@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerActivityTest", "PlayerActivityTest\PlayerActivityTest.csproj", "{8C93DCC3-E216-44A8-8C99-2171796C7CD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerActivity.Console", "PlayerActivityTest\PlayerActivity.Console.csproj", "{8C93DCC3-E216-44A8-8C99-2171796C7CD6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{C815BCEC-E120-479B-AA3D-4A3DE8911DF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{7ADFD6E1-E309-4E62-8A74-E8F764F27118}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerActivity.BusinessLogic", "BusinessLogic\PlayerActivity.BusinessLogic.csproj", "{7ADFD6E1-E309-4E62-8A74-E8F764F27118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemJsonActivitySaver", "FileSystemJsonActivitySaver\FileSystemJsonActivitySaver.csproj", "{B9DE2043-15D7-4523-882C-71ADEE3C24C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerActivity.FileSystemJsonActivitySaver", "FileSystemJsonActivitySaver\PlayerActivity.FileSystemJsonActivitySaver.csproj", "{B9DE2043-15D7-4523-882C-71ADEE3C24C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{3582C680-8BDF-4591-AE21-17E61E78E405}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerActivity.Contracts", "Contracts\PlayerActivity.Contracts.csproj", "{3582C680-8BDF-4591-AE21-17E61E78E405}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{956650AD-5765-46A5-9511-B1D1604149AB}"
 	ProjectSection(SolutionItems) = preProject

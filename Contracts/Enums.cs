@@ -1,4 +1,4 @@
-﻿namespace Contracts
+﻿namespace PlayerActivity.Contracts
 {
 
 }

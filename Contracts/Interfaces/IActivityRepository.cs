@@ -1,6 +1,6 @@
-﻿using Contracts.Models;
+﻿using PlayerActivity.Contracts.Models;
 
-namespace Contracts.Interfaces
+namespace PlayerActivity.Contracts.Interfaces
 {
     public interface IActivityRepository
     {

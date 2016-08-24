@@ -7,8 +7,8 @@
     <ProjectGuid>{B9DE2043-15D7-4523-882C-71ADEE3C24C9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FileSystemJsonActivitySaver</RootNamespace>
-    <AssemblyName>FileSystemJsonActivitySaver</AssemblyName>
+    <RootNamespace>PlayerActivity.FileSystemJsonActivitySaver</RootNamespace>
+    <AssemblyName>PlayerActivity.FileSystemJsonActivitySaver</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -51,9 +51,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Contracts\Contracts.csproj">
+    <ProjectReference Include="..\Contracts\PlayerActivity.Contracts.csproj">
       <Project>{3582c680-8bdf-4591-ae21-17e61e78e405}</Project>
-      <Name>Contracts</Name>
+      <Name>PlayerActivity.Contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

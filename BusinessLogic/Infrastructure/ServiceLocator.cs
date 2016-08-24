@@ -1,8 +1,8 @@
-﻿using BusinessLogic.Interfaces;
-using Microsoft.Practices.Unity;
+﻿using Microsoft.Practices.Unity;
+using PlayerActivity.BusinessLogic.Interfaces;
 using System;
 
-namespace BusinessLogic.Infrastructure
+namespace PlayerActivity.BusinessLogic.Infrastructure
 {
     public sealed class ServiceLocator : IDisposable
     {

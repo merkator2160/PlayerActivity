@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using BusinessLogic.Interfaces;
-using BusinessLogic.Models;
-using Contracts.Interfaces;
-using Contracts.Models;
+using PlayerActivity.BusinessLogic.Interfaces;
+using PlayerActivity.BusinessLogic.Models;
+using PlayerActivity.Contracts.Interfaces;
+using PlayerActivity.Contracts.Models;
 
-namespace BusinessLogic.Services
+namespace PlayerActivity.BusinessLogic.Services
 {
     internal class ActivityService : IActivityService
     {

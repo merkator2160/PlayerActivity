@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using BusinessLogic.Models;
-using Contracts.Models;
+using PlayerActivity.BusinessLogic.Models;
+using PlayerActivity.Contracts.Models;
 
-namespace BusinessLogic.Infrastructure
+namespace PlayerActivity.BusinessLogic.Infrastructure
 {
     internal static class AutoMapperConfig
     {

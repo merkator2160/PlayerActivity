@@ -1,11 +1,11 @@
-﻿using BusinessLogic;
-using BusinessLogic.Infrastructure;
-using BusinessLogic.Interfaces;
-using BusinessLogic.Models;
+﻿using PlayerActivity.BusinessLogic.Enums;
+using PlayerActivity.BusinessLogic.Infrastructure;
+using PlayerActivity.BusinessLogic.Interfaces;
+using PlayerActivity.BusinessLogic.Models;
 using System;
 using System.Collections.Generic;
 
-namespace PlayerActivityTest
+namespace PlayerActivity.Console
 {
     class Program
     {
@@ -21,8 +21,8 @@ namespace PlayerActivityTest
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
-                    Console.ReadKey();
+                    System.Console.WriteLine(ex.Message);
+                    System.Console.ReadKey();
                 }
             }
         }

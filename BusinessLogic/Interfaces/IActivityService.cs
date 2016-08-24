@@ -1,6 +1,6 @@
-﻿using BusinessLogic.Models;
+﻿using PlayerActivity.BusinessLogic.Models;
 
-namespace BusinessLogic.Interfaces
+namespace PlayerActivity.BusinessLogic.Interfaces
 {
     public interface IActivityService
     {
