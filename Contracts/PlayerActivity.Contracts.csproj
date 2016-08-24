@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums.cs" />
     <Compile Include="Interfaces\IActivityRepository.cs" />
     <Compile Include="Models\Activity.cs" />
     <Compile Include="Models\Player.cs" />
