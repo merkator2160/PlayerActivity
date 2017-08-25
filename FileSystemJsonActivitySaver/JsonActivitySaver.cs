@@ -91,9 +91,9 @@ namespace PlayerActivity.FileSystemJsonActivitySaver
         {
             using (var stream = new FileStream(_outputFilePath, FileMode.Create, FileAccess.Write))
             {
-                using (var reader = new StreamWriter(stream, _fileEncoding))
+                using (var writer = new StreamWriter(stream, _fileEncoding))
                 {
-                    reader.Write(JsonConvert.SerializeObject(_allPlayerActivities));
+                    writer.Write(JsonConvert.SerializeObject(_allPlayerActivities));
                 }
             }
         }
