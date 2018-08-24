@@ -7,8 +7,8 @@
     <ProjectGuid>{8C93DCC3-E216-44A8-8C99-2171796C7CD6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PlayerActivity.Console</RootNamespace>
-    <AssemblyName>PlayerActivity.Console</AssemblyName>
+    <RootNamespace>PlayerActivity.Main</RootNamespace>
+    <AssemblyName>PlayerActivity.Main</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

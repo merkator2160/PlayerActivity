@@ -5,11 +5,11 @@ using PlayerActivity.BusinessLogic.Models;
 using System;
 using System.Collections.Generic;
 
-namespace PlayerActivity.Console
+namespace PlayerActivity.Main
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(String[] args)
         {
             var players = GetPlayers();
             using (var services = new ServiceLocator())
@@ -21,8 +21,8 @@ namespace PlayerActivity.Console
                 }
                 catch (Exception ex)
                 {
-                    System.Console.WriteLine(ex.Message);
-                    System.Console.ReadKey();
+                    Console.WriteLine(ex.Message);
+                    Console.ReadKey();
                 }
             }
         }
